@@ -1,0 +1,450 @@
+Stake holders ask -
+Who your existing cutomers are and how do you retain them?
+How do you find new business opportunities?
+How do you analyze the existing and analytical data?
+How do you build a system which is highly available and scalable?
+
+Data Science is the answer for all, combination of 
+	Statistics,
+	Mathematics,
+	Visual Techniques,
+	Programming
+
+A powerful new approach to make discoveries from data.
+
+Domain Expertise and Scientific Methods -
+	collect
+	explore
+	analyze
+	visualize
+	find patterns
+
+Data Analysis can be
+	Descriptive - study data set to decipher the details
+	Predictive - create a model based on existing information to predict the outcome and behaviour
+	Prescriptive - Suggest actions for a given situaution using the collected information
+
+Data Scientist
+	1. ask the right question
+	2. data aquisition i.e. data collection
+	3. Interpretation and Data Wrangling invloves
+		data cleansing
+		data manipulation
+		data discovery
+		data pattern dynamification
+	
+	4. Create and train model for machine learning
+	5. Mathematical Statistical model
+		6. Data Visualization
+		7. Data Report
+		8. Data Products
+
+	A Data Scientist asks the right questions to the stakeholders,
+	acquires data from various sources and data points,
+	performs data wrangling that makes the data available for analysis,
+	creates reports and plots for data visualization
+
+	Flow of Data Analytics
+		Data acquisition, wrangling, exploration, modeling, and visualization
+
+Big Data and 5vs of Big Data
+	Volume
+	Velocity
+	Variety
+	Varasity
+	Value
+
+	Semi structured Data 
+		json, xml, NoSQL database
+
+	Unstructured Data
+		Images, Text File, Videos
+
+Search Engine's influencing factors
+	QueryVolumes - measured by Unique and verifiable users
+	Geographical Locations
+	Keywords/phrase matches on the web
+	Scrubbing for inappropriate content
+		The Search Engine's Autocomplete feature identifies unique and verifiable users
+		who search for a particular keyword or phrase to build a Query Volume.
+		It also helps identify the users' locations and tag them to the query,
+		enabling it to be location-specific.
+
+Data Scientists problems - Integration and analyzing the huge amount of data in hadoop clusters with the organisations.
+
+Python to the resque -
+Aquire - Scrapy
+Wrangle - Pandas
+Explore - Matplotlib
+Model - Scikit learn, numpy
+Visualization - Bokeh, SciPy
+
+
+Big Data platforms and Processing frameworks for Python
+	Data Scientist > Python > Big Data Processing Framework > Enterprise Big Data Platform > Big Data
+	Enterprise Big data platform - Cloudera, Hortonworks, MapReduce
+	Big Data Processing Frameworks - HadoopMapReduce, Spark, Flink
+
+DATA ANALYTICS
+	combination of processes to extract information from datasets
+	1. identify business problems
+	2. data aquisitions
+	3. data wrangling
+	4. Exploratory data analysis (EDA)
+		Analysis of data using quantitative techniques
+		Analysis of data using graphical techniques
+		Suggests admissible models that best fit the data
+			Approach - 
+				studies the data to recommend admissible models that best fit the data
+			Focus -
+				Its focus is on the data
+				its structures, outliers and models suggested by the data
+			Assumptions - 
+				EDA techinques make minimal or no assumptions.
+				They present and show all the underlying data without any data loss.
+			EDA Techniques - 
+				Quantitavtive
+					Mathematical and statistical functions provide	
+					numeric outputs for the inputted data.
+				Graphical
+					use statistical functions for graphical output 
+	
+		
+	5. Data Exploration
+	6. Conclusion or Prediction
+	7. Communication or data visualisations
+
+1.	IDENTIFY BUSINESS PROBLEMS
+		who are my customers?
+		why is my sales going down?
+		how do i manage my inventory?
+		why is my system not scaling up with increase in traffic and volume
+		Such business problems trigger the need to analyze data and find answers.
+		Data acquisition is a process to collect data from various data sources such as RDBMS,
+		No SQL databases, web server logs and also scrape the web through web APIs.
+
+2. 	COLLECTION OF DATA FROM VARIOUS SOURCES for ANALYSIS to answer the question raised in step 1
+
+	Data Scientist Expertise
+		File Handling
+		Web Formats
+		Web Scrapping
+		Twitter, Facebook, LinkedIn and other social media and information sites provide streaming APIs.
+		Server logs can be extracted from enterprises system server to analyze and optimise application performance
+		
+3. DATA WRANGLING - most important data Analytic Process
+	Data Cleansing
+	Data Manipulation - TRANSFORM, MERGE, AGGRIGATE, GROUP BY make it available for exploritary data analysis
+	Data Exploration -
+		Data Discovery
+		Data Pattern
+
+	causes of challenges in data wrangling phases:
+	Data is neither in the expected format or consistent
+	Unexpected Data Format
+	Erroneous data , data contains lots of erros and values that needs to be cleansed
+	Voluminous data to be manipulated
+	Classifying data into linear or clustered
+	Determining relationship between variables between observation, feature, and response
+	Data wrangling includes data transformation, merging, aggregation, group by operation, and reshaping.
+
+5. Model Selection -
+	based on overall data analysis process
+	should be accurate to avoid iterations
+	depends on pattern identification and algorithms
+	depends on hypothesis building and testing
+	leads to building mathematical statistical functions
+
+4. Exploratory data analysis (EDA)
+		Analysis of data using quantitative techniques
+		Analysis of data using graphical techniques
+		Suggests admissible models that best fit the data
+			Approach - 
+				studies the data to recommend admissible models that best fit the data
+			Focus -
+				Its focus is on the data
+				its structures, outliers and models suggested by the data
+			Assumptions - 
+				EDA techinques make minimal or no assumptions.
+				They present and show all the underlying data without any data loss.
+			EDA Techniques - 
+				Quantitavtive
+					Mathematical and statistical functions provide	
+					numeric outputs for the inputted data.
+					Measurement of Central tendency,
+						mean(average), suitable for symmetric distributions
+						median(exact middle value), suitable for skewed distributions
+						and for catching outliers in the dataset
+						mode(frequency).
+					
+					Measurement of Spread
+						Variance, appx the mean of the square of the deviations
+						standard deviation, square root of the variance
+						interquartile range, between 75-25th % i.e. 50%
+				
+				Graphical
+					use statistical functions for graphical output 
+					Histogram
+					 graphically summarize distribution of univartiate data set. It Shows
+						- the center or location of data
+						- the spread of data
+						- the skewness of data
+						- the presence of outliers
+						- the presence of multiple modes in the data
+					Scatterplot
+						represents relationship between two variables.
+						Are variable x and y related, linearly related or non-linearly related.
+						Does change in variation of Y depend on X
+						Are there outliers?
+6. Hypothesis begins at Data Exploration stage but becomes more mature in the conclusion or prediction phase. 
+	used to establish the relationship between dependent
+	and independent variables
+	Domain knowledge leads to hypothesis buiding using feature engineering.
+		Feature engineering, Makes sense of data, Construct new features from raw data automatically
+		construct new features from raw data manually. 
+
+HYPOTHESIS building using a model
+	1. Model Building
+		Indentify the best input variables
+		Evaluate the models capacity to forecast with these variables
+	2. Model Evaluation
+		Train and test the model for accuracy
+		Optimize model accuracy, performance, and comparision with other model
+					
+	3. Model Deployment
+		Use the model for prediction
+		Use the mdoel for compare actual outcome with expectations
+	Take two samples from the population
+		u1 and u2
+		calculating the difference between the two means is hypothesis testing.
+	ALTERNATIVE hypothesis u1 != u2 proposed model outcome is accurate and matches the data.
+	There is a difference between the means of s1 and s2
+	
+	NULL HYPOTHESIS logical opposite of the alternative hypothesis
+	There is no difference between mean of S1 and S2			
+	
+	Begins by dividing the data set into training and testing
+	training dataset is used to build new proposed model, ranges between 60-80% of the data
+	makes use of the available features and responses of the data sample
+	Test dataset used to test the model, acts as new unseen data. 20-40%
+	Null Hypothesis - Proposed model does not predict better that the existing model.
+	Alternative hypothesis - proposed model predicts better than the existing model.
+
+HYPOTHESIS testing
+	inferrential statistical techinique
+	that determines if a certain condition is true for the population
+	In a cloth manufaturer the hypothesis is that every dress is flawless
+	a study of each dress manufatured and nothing the defects
+	
+	DECISION			H0 is TRUE	H0 is false
+	Failed to Reject Null		Correct		Type 2 Error
+	Reject Null			Type 1 Error	Correct
+	
+	Type-1 aplha Error rejects Null Hypothesis when it is TRUE
+	Type-2 beta FAILS to reject the null hypothhesis when it is false
+	p value the probablity of observing extreme values 
+
+step 1
+	H0(u1=u2) NULL HYPOTHESIS
+	H1(u1!=u2) ALTERNATIVE HYPOTHESIS
+step 2
+	Set a significant level for the population
+step 3
+	Collect Data from population
+step 4
+	calculate p value
+	reject null hypothesis if p<alpha
+	Fail to reject null hypothesis p>=alpha
+for example -
+	null hypothesis will be two medicines of different pharmacutical company are equally effective
+	alternative they are not
+
+	efficacy of medicine
+	CONTINUOUS DATA - 	evaluate mean, median standard deviation or varience 
+	take temperature of patients after every hour of giving the medicine reffered to as continuous data
+	binomial data - evaluate the percentage general classification of data. ask population if Fever Recided? YES/NO
+	poisson data - evaluate rate of occurence or frequency. how many times a month they use certain medicine
+
+TYPES OF DATA
+three types of variable in categorical data 
+	Nominal Variables - variables with no logical ordereing, Variables are independent of each other
+	Ordinal Variables - Values are in logical order, relative distance between value is not clear.
+	Association indicates if two variables are associated or independent of each other	
+
+CHI SQUARE TEST !!!
+
+	  purchases
+ 	<$500 	>$500
+MALE	.55	.45
+FEMALE	.75	.25
+
+	NULL HYPOTHESIS there is no association between gender and purchase FE EXPECTED FREQUENCY bivariate table expected
+			the probablity does not change for 500 dollars or more whether female or male
+	ALTERNATIVE HYPOTHESIS	 FO OBSERVED FREQUENCY 
+			there is association between gender and purchase
+			the probablity of purchase over 500 dollars is different for female and male
+	if there is no association between gender and purchase
+	observed frequency = expected frequency
+
+
+	
+
+7. Communication, process and results are presented to the stakeholders.
+	Visual Graphs,
+	Plotting Maps
+	Reports
+	Whitepaper reports
+	Data Visualisation
+		establishes trends, simplifies quantitative information through visuals
+		shows the relationship between data points and variables
+		indentifies trends, webtraffic patterns
+	Plotting
+		represent underlying data through graphics.
+		x and y dependency or independency 
+
+DATA TYPES FOR PLOTTING
+1. Numerical Data
+	i. discrete data - Distinct or counted values, eg. number of employees in a company
+	ii. continuous data - values within a range that can be measured, weight of a newborn baby in kilograms
+				the daily wind speed
+2. Categorical Data
+	i.  Cluster or a Grouped values eg.
+	Students can be divided into different groups based on height, tall, medium, and short
+	ii. Ordinal data - values grouped according to ranks
+	Strongly agree, agree, disagree, five point scale ranks.
+	iii. Time series data - data measured in time blocks such date, month, year and time (hours, minutes and seconds)
+	
+If the data is continuous use HISTOGRAM, LINE CHART, REGRESSION PLOT
+if the data is categorical Scatter plot, cluster map, heatmap
+Data Analytics is an iterative process at every step we have to check back with the question,
+often to ensure that we are on the right track
+Process result - question is answered or business problem is solved.
+
+Skills and tools required at each step of the Data Analytics Process
+
+1. Question or Business Problem
+	Ability to ask appropriate questions
+	Domain knowledge 
+	Passion for Data
+	Analytical Approach
+2. Data Aquisition
+	BeautifulSoup for webscrapin
+	CSV or other file knowledge
+	NumPy
+	Pandas
+	Database
+3. Data Wrangling
+	CSV or other file knowledge
+	NumPy
+	Pandas
+	Database
+	Scipy
+4. Data Exploration
+	NumPy	
+	SciPy
+	Pandas
+	Matplotlib
+5. Conclusions or Predictions
+	Scikit-learn
+	CSV
+	Numpy
+	Pandas
+	Database
+	Scipy
+6. Communication or Data Visualisation
+	Pandas
+	Database
+	Matplotlib
+	PPT
+	csv
+
+
+STATISTICS
+	tools available to analyze data
+	- statistical principles
+	- functions
+	- algorithms
+	what can we do using statistical tool
+	- analyze the primary data
+	- build statistical model
+	- predict future outcome
+
+	DESCRIPTIVE ANALYSIS
+	Record height of each and every person. Provide the tallest, shortest and average height of the population.
+	It provides a consise summary of data, for eg user visiting your website in a week and summarize data.
+		
+	INFERENTIAL ANALYSIS
+	random sample is drawn from the population
+	used to describe and make inferences about the population
+	valuable when it is not possible to examine each member of the population.
+	example categorize height as tall medium and short Take a sample to study from the popualtion. 
+	
+	
+	PURPOSE
+	QUESTIONS
+	AUDIENCE
+	SAMPLE	
+
+STEP 1 Find the population of interset that suits the purpose of statisticla analysis
+STEP 2 Draw a random sample that represents the population
+STEP 3 Compute sample statistics to describe the spread and shape of the dataset.
+STEP 4 Make inferences using the sample and calculations and apply it back to the population
+
+
+	DATA DISTRIBUTION
+	collection of values arranged in order of their relative frequency and occurences
+	Range - refers to maximum and minimum value of data
+	Frequency - refers to number of occurences of a data value
+	Central tendency - indicates data accumulation
+	toward the middle of the distribution or to the end.
+
+ 	PERCENTILE
+	THIRD QUARTILE - 75th percentile = 91-100
+	SECOND QUARTILE - 50th percentile = 80-90
+	FIRST QUARTILE - 25th percentile = 59-79
+
+	DISPERSION - variablity, scatterm or
+	spread of how streached or squeezed a distribution is
+		RANGE - range refers to difference between maximum and minimum data values
+		INTERQUARTILE RANGE - difference between 25th and 75th percentiles
+		VARIANCE - refers to data values around the mean value
+		STANDARD DEVIATION - square root of the variance to indicate how spread out the data is.
+
+	
+HISTOGRAM - karl pearson
+	to construct a historgram we have to bin the range of values
+	BINS are consequtive non overlapping intervals of a variable
+	BINS are of equal size, the bars represent the bin
+	height of the bar represents the frequency of the values in the BIN
+	helps assess the probablity distribution of a variable
+
+BELL CURVE - Normal Distribution
+	Its symmetric around the mean 
+	Symmetric on both sides of the center
+	Having equal mean, median, and mode values
+	Denser in the center and less dense in the tails or sides
+	MEAN and STANDARD DEVIATION also known as the gaussian curve
+
+	PEAK where most of the observations occur
+	FLANKS beyond the peak, but one and two standard deviations from the mean
+	TAIL far from peak considered beyond two deviation from the mean 5% or less data falls under this
+	
+	SKEWED -
+		data distribution indicates the tendency of the data distribution to be more spread out one side
+	LEFT SKEWED
+		MEAN<MEADIAN
+		Negatively skewed data
+		Left tail contains large distributions
+	RIGHT SKEWED
+		MEAN>MEDIAN
+		positively skewed
+		Right tail contains large distributions	
+KRUTOSIS 
+	describes the shape of a probabilty distribution
+	Mesures the tendency of data towards the center or towards the tail
+	PLATYKURTIC is negative kurtosis
+	MESOCURTIC normal distribution curve
+	LEPTOKURTIC positive distribution curve
+
+
+	
